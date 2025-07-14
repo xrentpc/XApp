@@ -1,0 +1,78 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #101213;
+  color: #ffffff;
+}
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 24px 12px;
+}
+h1 {
+  text-align: center;
+  color: #00ff84;
+  margin-bottom: 28px;
+}
+.card {
+  background: #1a1c1f;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 20px rgba(0, 255, 132, 0.2);
+}
+.card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+input[type="range"] {
+  width: 100%;
+  margin: 14px 0;
+  accent-color: #00ff84;
+}
+.total {
+  font-weight: bold;
+  color: #00ff84;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+button {
+  background-color: #00ff84;
+  color: #101213;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+button:hover {
+  background-color: #00e676;
+}
+@media (max-width: 600px) {
+  .card-title {
+    font-size: 18px;
+  }
+  .total {
+    font-size: 16px;
+  }
+  button {
+    width: 100%;
+  }
+}
