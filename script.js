@@ -1,9 +1,9 @@
 
 const config = [
-  { name: "STANDART", price: 1550, img: "xrent1.png" },
-  { name: "PREMIUM", price: 1955, img: "xrent2.png" },
-  { name: "X", price: 2450, img: "xrent3.png" },
-  { name: "COMPACT", price: 1660, img: "xrent4.png" }
+  { name: "STANDART", price: 1550, img: "xrent1.PNG" },
+  { name: "PREMIUM", price: 1955, img: "xrent2.PNG" },
+  { name: "X", price: 2450, img: "xrent3.PNG" },
+  { name: "COMPACT", price: 1660, img: "xrent4.PNG" }
 ];
 
 function getCoefficient(days) {
