@@ -1,0 +1,70 @@
+
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+.app {
+  max-width: 960px;
+  margin: auto;
+  padding: 24px 12px;
+}
+.logo {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto 24px;
+}
+.card {
+  background: linear-gradient(145deg, #1c2e35, #203841);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+}
+.card img {
+  width: 100%;
+  max-height: 240px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+input[type="range"] {
+  width: 100%;
+  margin: 14px 0;
+  accent-color: #ffffff;
+}
+.total {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+button {
+  background-color: #e50000;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #cc0000;
+}
+@media (max-width: 600px) {
+  .card-title {
+    font-size: 18px;
+  }
+  .total {
+    font-size: 16px;
+  }
+  button {
+    width: 100%;
+  }
+}
